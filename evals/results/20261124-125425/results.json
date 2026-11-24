@@ -1,0 +1,1325 @@
+[
+ {
+  "id": "acme-001:software",
+  "company": "acme-001",
+  "category": "insight",
+  "question": [
+   "What software has been installed during the period, and where?"
+  ],
+  "error": null,
+  "answer": {
+   "sentences": [
+    {
+     "text": "During May 14\u2013June 12, 2026, telemetry identified newly observed software on 2 devices.",
+     "refs": [
+      "R1"
+     ]
+    },
+    {
+     "text": "uTorrent first appeared on May 31 on acme-macbook-2 (1LYSSFD074BB), assigned to emp-acme-1001, and remained present afterward.",
+     "refs": [
+      "R2",
+      "R5"
+     ]
+    },
+    {
+     "text": "CleanMyMac X first appeared on May 25 on acme-macbook-1 (7VP16KHV88LM), assigned to emp-acme-1000, and remained present afterward.",
+     "refs": [
+      "R3",
+      "R6"
+     ]
+    },
+    {
+     "text": "The detector identifies applications absent from the first snapshot and present in every snapshot since their appearance.",
+     "refs": [
+      "R1"
+     ]
+    },
+    {
+     "text": "Physical location details are not available in the returned device telemetry.",
+     "refs": [
+      "R5",
+      "R6"
+     ]
+    }
+   ],
+   "devices": [
+    "1LYSSFD074BB",
+    "7VP16KHV88LM"
+   ],
+   "count": 2
+  },
+  "proposals": [],
+  "checks": [
+   {
+    "sentence": "During May 14\u2013June 12, 2026, telemetry identified newly observed software on 2 devices.",
+    "refs": [
+     "R1"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "uTorrent first appeared on May 31 on acme-macbook-2 (1LYSSFD074BB), assigned to emp-acme-1001, and remained present afterward.",
+    "refs": [
+     "R2",
+     "R5"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "CleanMyMac X first appeared on May 25 on acme-macbook-1 (7VP16KHV88LM), assigned to emp-acme-1000, and remained present afterward.",
+    "refs": [
+     "R3",
+     "R6"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "The detector identifies applications absent from the first snapshot and present in every snapshot since their appearance.",
+    "refs": [
+     "R1"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "Physical location details are not available in the returned device telemetry.",
+    "refs": [
+     "R5",
+     "R6"
+    ],
+    "verdict": "supported",
+    "problem": null
+   }
+  ],
+  "withheld": 0,
+  "audit": [
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported"
+  ],
+  "leaked": [],
+  "seconds": 53.9,
+  "usd": 0.0195,
+  "calls": 2,
+  "scores": {
+   "devices": true,
+   "isolation": true
+  },
+  "passed": true,
+  "repeat": 0
+ },
+ {
+  "id": "globex-002:software",
+  "company": "globex-002",
+  "category": "insight",
+  "question": [
+   "What software has been installed during the period, and where?"
+  ],
+  "error": null,
+  "answer": {
+   "sentences": [
+    {
+     "text": "During May 14\u2013June 12, 2026, one new application installation was detected across eight devices checked.",
+     "refs": [
+      "R1"
+     ]
+    },
+    {
+     "text": "uTorrent was installed on May 20 on globex-macbook-4 (Q1AFVLH3YV33), a MacBook Air assigned to emp-globex-1003, and remained present afterward.",
+     "refs": [
+      "R2",
+      "R4"
+     ]
+    },
+    {
+     "text": "No physical location is provided in the returned telemetry.",
+     "refs": [
+      "R4"
+     ]
+    }
+   ],
+   "devices": [
+    "Q1AFVLH3YV33"
+   ],
+   "count": 1
+  },
+  "proposals": [],
+  "checks": [
+   {
+    "sentence": "During May 14\u2013June 12, 2026, one new application installation was detected across eight devices checked.",
+    "refs": [
+     "R1"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "uTorrent was installed on May 20 on globex-macbook-4 (Q1AFVLH3YV33), a MacBook Air assigned to emp-globex-1003, and remained present afterward.",
+    "refs": [
+     "R2",
+     "R4"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "No physical location is provided in the returned telemetry.",
+    "refs": [
+     "R4"
+    ],
+    "verdict": "supported",
+    "problem": null
+   }
+  ],
+  "withheld": 0,
+  "audit": [
+   "supported",
+   "supported",
+   "supported"
+  ],
+  "leaked": [],
+  "seconds": 29.9,
+  "usd": 0.0109,
+  "calls": 2,
+  "scores": {
+   "devices": true,
+   "isolation": true
+  },
+  "passed": true,
+  "repeat": 0
+ },
+ {
+  "id": "initech-003:software",
+  "company": "initech-003",
+  "category": "insight",
+  "question": [
+   "What software has been installed during the period, and where?"
+  ],
+  "error": null,
+  "answer": {
+   "sentences": [
+    {
+     "text": "During May 14\u2013June 12, 2026, telemetry detected 3 new software installations across 3 devices.",
+     "refs": [
+      "R1"
+     ]
+    },
+    {
+     "text": "uTorrent \u2014 June 2 on W2656QDAE2ZJ (Dell XPS 15), used by emp-initech-1004.",
+     "refs": [
+      "R2"
+     ]
+    },
+    {
+     "text": "uTorrent \u2014 May 29 on I3JLKILKQTAC (Mac mini), used by emp-initech-1001.",
+     "refs": [
+      "R3"
+     ]
+    },
+    {
+     "text": "TeamViewer \u2014 May 21 on DARFCP0BQM2G (MacBook Pro), used by emp-initech-1000.",
+     "refs": [
+      "R4"
+     ]
+    },
+    {
+     "text": "These applications were absent from the first snapshot and remained present in every snapshot since their detected installation.",
+     "refs": [
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+     ]
+    }
+   ],
+   "devices": [
+    "W2656QDAE2ZJ",
+    "I3JLKILKQTAC",
+    "DARFCP0BQM2G"
+   ],
+   "count": 3
+  },
+  "proposals": [],
+  "checks": [
+   {
+    "sentence": "During May 14\u2013June 12, 2026, telemetry detected 3 new software installations across 3 devices.",
+    "refs": [
+     "R1"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "uTorrent \u2014 June 2 on W2656QDAE2ZJ (Dell XPS 15), used by emp-initech-1004.",
+    "refs": [
+     "R2"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "uTorrent \u2014 May 29 on I3JLKILKQTAC (Mac mini), used by emp-initech-1001.",
+    "refs": [
+     "R3"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "TeamViewer \u2014 May 21 on DARFCP0BQM2G (MacBook Pro), used by emp-initech-1000.",
+    "refs": [
+     "R4"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "These applications were absent from the first snapshot and remained present in every snapshot since their detected installation.",
+    "refs": [
+     "R1",
+     "R2",
+     "R3",
+     "R4"
+    ],
+    "verdict": "supported",
+    "problem": null
+   }
+  ],
+  "withheld": 0,
+  "audit": [
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported"
+  ],
+  "leaked": [],
+  "seconds": 25.0,
+  "usd": 0.0086,
+  "calls": 2,
+  "scores": {
+   "devices": true,
+   "isolation": true
+  },
+  "passed": true,
+  "repeat": 0
+ },
+ {
+  "id": "harbor-101:software",
+  "company": "harbor-101",
+  "category": "insight",
+  "question": [
+   "What software has been installed during the period, and where?"
+  ],
+  "error": null,
+  "answer": {
+   "sentences": [
+    {
+     "text": "During May 14\u2013June 12, 2026, telemetry detected 353 new-software findings across 348 devices: uTorrent (186), CleanMyMac X (89), and TeamViewer (78).",
+     "refs": [
+      "R1"
+     ]
+    },
+    {
+     "text": "These applications were absent from the initial snapshot and present in every snapshot from their appearance onward.",
+     "refs": [
+      "R1"
+     ]
+    },
+    {
+     "text": "The latest 25 findings are listed below, ranked by installation date, newest first; 328 additional findings are not shown.",
+     "refs": [
+      "R1"
+     ]
+    },
+    {
+     "text": "CleanMyMac X \u2014 June 10: 9HTT1J7I7KVF, D2UR9ZBEVUPE, OFQJ4B37ESC2, XQCM0B7TN6NR, YQE2FD2KV1PC (MacBook Pro), and YRQ338BA9LC5 (Mac mini).",
+     "refs": [
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "R7"
+     ]
+    },
+    {
+     "text": "TeamViewer \u2014 June 10: 5Q7F0TBGHOGS, 6E520Z59U79H, and HL0HGGG9XQAX (MacBook Pro).",
+     "refs": [
+      "R8",
+      "R9",
+      "R10"
+     ]
+    },
+    {
+     "text": "uTorrent \u2014 June 10: 4HFFMOX1BKL1 (Mac mini), 53J9RUUJ1IZD (ThinkPad X1 Carbon), 64VXZT5FVLSW, ISF716WFFV07, KQEAMSS4JIQ8 (MacBook Pro), and KH26XEVMK8N6 (MacBook Air).",
+     "refs": [
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15",
+      "R16"
+     ]
+    },
+    {
+     "text": "CleanMyMac X \u2014 June 9: LFT0HRFGXTLE (MacBook Pro).",
+     "refs": [
+      "R17"
+     ]
+    },
+    {
+     "text": "TeamViewer \u2014 June 9: 0F36XWQ2J8FV, DDTYIUG4TPV9, JI4YV64YBSHE (MacBook Pro), and 6OTA7B86CBYL (Dell XPS 15).",
+     "refs": [
+      "R18",
+      "R19",
+      "R20",
+      "R21"
+     ]
+    },
+    {
+     "text": "uTorrent \u2014 June 9: 0LFSKXKBKYWG, FX1O4MRBDXG8, HX5XRWDCTREB (MacBook Pro), DRKQD7JLWSM4, and G3MXCRE9R002 (Dell XPS 15).",
+     "refs": [
+      "R22",
+      "R23",
+      "R24",
+      "R25",
+      "R26"
+     ]
+    }
+   ],
+   "devices": [
+    "9HTT1J7I7KVF",
+    "D2UR9ZBEVUPE",
+    "OFQJ4B37ESC2",
+    "XQCM0B7TN6NR",
+    "YQE2FD2KV1PC",
+    "YRQ338BA9LC5",
+    "5Q7F0TBGHOGS",
+    "6E520Z59U79H",
+    "HL0HGGG9XQAX",
+    "4HFFMOX1BKL1",
+    "53J9RUUJ1IZD",
+    "64VXZT5FVLSW",
+    "ISF716WFFV07",
+    "KH26XEVMK8N6",
+    "KQEAMSS4JIQ8",
+    "LFT0HRFGXTLE",
+    "0F36XWQ2J8FV",
+    "6OTA7B86CBYL",
+    "DDTYIUG4TPV9",
+    "JI4YV64YBSHE",
+    "0LFSKXKBKYWG",
+    "DRKQD7JLWSM4",
+    "FX1O4MRBDXG8",
+    "G3MXCRE9R002",
+    "HX5XRWDCTREB"
+   ],
+   "count": 348
+  },
+  "proposals": [],
+  "checks": [
+   {
+    "sentence": "During May 14\u2013June 12, 2026, telemetry detected 353 new-software findings across 348 devices: uTorrent (186), CleanMyMac X (89), and TeamViewer (78).",
+    "refs": [
+     "R1"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "These applications were absent from the initial snapshot and present in every snapshot from their appearance onward.",
+    "refs": [
+     "R1"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "The latest 25 findings are listed below, ranked by installation date, newest first; 328 additional findings are not shown.",
+    "refs": [
+     "R1"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "CleanMyMac X \u2014 June 10: 9HTT1J7I7KVF, D2UR9ZBEVUPE, OFQJ4B37ESC2, XQCM0B7TN6NR, YQE2FD2KV1PC (MacBook Pro), and YRQ338BA9LC5 (Mac mini).",
+    "refs": [
+     "R2",
+     "R3",
+     "R4",
+     "R5",
+     "R6",
+     "R7"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "TeamViewer \u2014 June 10: 5Q7F0TBGHOGS, 6E520Z59U79H, and HL0HGGG9XQAX (MacBook Pro).",
+    "refs": [
+     "R8",
+     "R9",
+     "R10"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "uTorrent \u2014 June 10: 4HFFMOX1BKL1 (Mac mini), 53J9RUUJ1IZD (ThinkPad X1 Carbon), 64VXZT5FVLSW, ISF716WFFV07, KQEAMSS4JIQ8 (MacBook Pro), and KH26XEVMK8N6 (MacBook Air).",
+    "refs": [
+     "R11",
+     "R12",
+     "R13",
+     "R14",
+     "R15",
+     "R16"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "CleanMyMac X \u2014 June 9: LFT0HRFGXTLE (MacBook Pro).",
+    "refs": [
+     "R17"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "TeamViewer \u2014 June 9: 0F36XWQ2J8FV, DDTYIUG4TPV9, JI4YV64YBSHE (MacBook Pro), and 6OTA7B86CBYL (Dell XPS 15).",
+    "refs": [
+     "R18",
+     "R19",
+     "R20",
+     "R21"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "uTorrent \u2014 June 9: 0LFSKXKBKYWG, FX1O4MRBDXG8, HX5XRWDCTREB (MacBook Pro), DRKQD7JLWSM4, and G3MXCRE9R002 (Dell XPS 15).",
+    "refs": [
+     "R22",
+     "R23",
+     "R24",
+     "R25",
+     "R26"
+    ],
+    "verdict": "supported",
+    "problem": null
+   }
+  ],
+  "withheld": 0,
+  "audit": [
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported"
+  ],
+  "leaked": [],
+  "seconds": 39.5,
+  "usd": 0.0195,
+  "calls": 2,
+  "scores": {
+   "devices": true,
+   "count": true,
+   "isolation": true
+  },
+  "passed": true,
+  "repeat": 0
+ },
+ {
+  "id": "meridian-102:software",
+  "company": "meridian-102",
+  "category": "insight",
+  "question": [
+   "What software has been installed during the period, and where?"
+  ],
+  "error": null,
+  "answer": {
+   "sentences": [
+    {
+     "text": "During May 14\u2013June 12, 2026, telemetry detected 224 new-software findings across 216 devices: uTorrent (109 findings), CleanMyMac X (63), and TeamViewer (52).",
+     "refs": [
+      "R1"
+     ]
+    },
+    {
+     "text": "These applications were absent from the first snapshot and present in every snapshot since appearing; software versions are not provided in these results.",
+     "refs": [
+      "R1",
+      "R2",
+      "R6",
+      "R7"
+     ]
+    },
+    {
+     "text": "The 25 newest findings are listed below, grouped by application and installation date; 199 more findings are not shown.",
+     "refs": [
+      "R1"
+     ]
+    },
+    {
+     "text": "CleanMyMac X \u2014 June 10: E5P47W0LM5TF, GTQBZ7T4GY26, M6DSRIXZ7KDJ, VG0HK610HU39.",
+     "refs": [
+      "R2",
+      "R3",
+      "R4",
+      "R5"
+     ]
+    },
+    {
+     "text": "CleanMyMac X \u2014 June 9: 03VU4D5IVEJK, 3J5X6W49OZLW, S3Z4K9I51FCB.",
+     "refs": [
+      "R8",
+      "R9",
+      "R10"
+     ]
+    },
+    {
+     "text": "CleanMyMac X \u2014 June 8: 0L0CAFTNF54L, 8O9D5K4WB1G8, S2KEP2GL2W54.",
+     "refs": [
+      "R18",
+      "R19",
+      "R20"
+     ]
+    },
+    {
+     "text": "TeamViewer \u2014 June 10: 5LEBSQQAUR8C; June 9: YM6RUJOMM618.",
+     "refs": [
+      "R6",
+      "R11"
+     ]
+    },
+    {
+     "text": "TeamViewer \u2014 June 8: 30GR12NSFB5T, 5RN7YC60FCAQ, 7PC96H3IODC1, DKXFRVYWL8VW.",
+     "refs": [
+      "R21",
+      "R22",
+      "R23",
+      "R24"
+     ]
+    },
+    {
+     "text": "uTorrent \u2014 June 10: 4HQ1W7MVT2Y6.",
+     "refs": [
+      "R7"
+     ]
+    },
+    {
+     "text": "uTorrent \u2014 June 9: 8MUU3EZ3X8D2, 9HEOE6XG4JMF, B4KH6WYSAJRF, E076XTBJY3EE, F9RTEVGB7H2Y, YK1BFTL20I9B.",
+     "refs": [
+      "R12",
+      "R13",
+      "R14",
+      "R15",
+      "R16",
+      "R17"
+     ]
+    },
+    {
+     "text": "uTorrent \u2014 June 8: 0X9X309HK2ZW, 4QFHK5WJFBSS.",
+     "refs": [
+      "R25",
+      "R26"
+     ]
+    }
+   ],
+   "devices": [
+    "E5P47W0LM5TF",
+    "GTQBZ7T4GY26",
+    "M6DSRIXZ7KDJ",
+    "VG0HK610HU39",
+    "5LEBSQQAUR8C",
+    "4HQ1W7MVT2Y6",
+    "03VU4D5IVEJK",
+    "3J5X6W49OZLW",
+    "S3Z4K9I51FCB",
+    "YM6RUJOMM618",
+    "8MUU3EZ3X8D2",
+    "9HEOE6XG4JMF",
+    "B4KH6WYSAJRF",
+    "E076XTBJY3EE",
+    "F9RTEVGB7H2Y",
+    "YK1BFTL20I9B",
+    "0L0CAFTNF54L",
+    "8O9D5K4WB1G8",
+    "S2KEP2GL2W54",
+    "30GR12NSFB5T",
+    "5RN7YC60FCAQ",
+    "7PC96H3IODC1",
+    "DKXFRVYWL8VW",
+    "0X9X309HK2ZW",
+    "4QFHK5WJFBSS"
+   ],
+   "count": 216
+  },
+  "proposals": [],
+  "checks": [
+   {
+    "sentence": "During May 14\u2013June 12, 2026, telemetry detected 224 new-software findings across 216 devices: uTorrent (109 findings), CleanMyMac X (63), and TeamViewer (52).",
+    "refs": [
+     "R1"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "These applications were absent from the first snapshot and present in every snapshot since appearing; software versions are not provided in these results.",
+    "refs": [
+     "R1",
+     "R2",
+     "R6",
+     "R7"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "The 25 newest findings are listed below, grouped by application and installation date; 199 more findings are not shown.",
+    "refs": [
+     "R1"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "CleanMyMac X \u2014 June 10: E5P47W0LM5TF, GTQBZ7T4GY26, M6DSRIXZ7KDJ, VG0HK610HU39.",
+    "refs": [
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "CleanMyMac X \u2014 June 9: 03VU4D5IVEJK, 3J5X6W49OZLW, S3Z4K9I51FCB.",
+    "refs": [
+     "R8",
+     "R9",
+     "R10"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "CleanMyMac X \u2014 June 8: 0L0CAFTNF54L, 8O9D5K4WB1G8, S2KEP2GL2W54.",
+    "refs": [
+     "R18",
+     "R19",
+     "R20"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "TeamViewer \u2014 June 10: 5LEBSQQAUR8C; June 9: YM6RUJOMM618.",
+    "refs": [
+     "R6",
+     "R11"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "TeamViewer \u2014 June 8: 30GR12NSFB5T, 5RN7YC60FCAQ, 7PC96H3IODC1, DKXFRVYWL8VW.",
+    "refs": [
+     "R21",
+     "R22",
+     "R23",
+     "R24"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "uTorrent \u2014 June 10: 4HQ1W7MVT2Y6.",
+    "refs": [
+     "R7"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "uTorrent \u2014 June 9: 8MUU3EZ3X8D2, 9HEOE6XG4JMF, B4KH6WYSAJRF, E076XTBJY3EE, F9RTEVGB7H2Y, YK1BFTL20I9B.",
+    "refs": [
+     "R12",
+     "R13",
+     "R14",
+     "R15",
+     "R16",
+     "R17"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "uTorrent \u2014 June 8: 0X9X309HK2ZW, 4QFHK5WJFBSS.",
+    "refs": [
+     "R25",
+     "R26"
+    ],
+    "verdict": "supported",
+    "problem": null
+   }
+  ],
+  "withheld": 0,
+  "audit": [
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported"
+  ],
+  "leaked": [],
+  "seconds": 39.1,
+  "usd": 0.0191,
+  "calls": 2,
+  "scores": {
+   "devices": true,
+   "count": true,
+   "isolation": true
+  },
+  "passed": true,
+  "repeat": 0
+ },
+ {
+  "id": "summit-103:software",
+  "company": "summit-103",
+  "category": "insight",
+  "question": [
+   "What software has been installed during the period, and where?"
+  ],
+  "error": null,
+  "answer": {
+   "sentences": [
+    {
+     "text": "During May 14\u2013June 12, 2026, telemetry detected 150 new-software findings across 147 devices.",
+     "refs": [
+      "R1"
+     ]
+    },
+    {
+     "text": "The application totals were uTorrent: 89, CleanMyMac X: 36, and TeamViewer: 25.",
+     "refs": [
+      "R1"
+     ]
+    },
+    {
+     "text": "A finding means the application was absent from the first snapshot and remained present in every snapshot after appearing.",
+     "refs": [
+      "R1"
+     ]
+    },
+    {
+     "text": "Latest inventory also shows uTorrent on 89 devices, CleanMyMac X on 36, and TeamViewer on 25; these are current-presence counts, distinct from activity during the period.",
+     "refs": [
+      "R27",
+      "R53",
+      "R79"
+     ]
+    },
+    {
+     "text": "The 25 newest installation findings are listed below, newest first; 125 additional findings are not shown.",
+     "refs": [
+      "R1"
+     ]
+    },
+    {
+     "text": "June 10 \u2014 TeamViewer \u2014 SDM3J7XZ4JT6 (Dell XPS 15; hostname summit-dellxps15-551).",
+     "refs": [
+      "R2",
+      "R98"
+     ]
+    },
+    {
+     "text": "June 10 \u2014 uTorrent \u2014 0LNZLSWVMZXF (MacBook Pro; hostname summit-macbookpro-1551).",
+     "refs": [
+      "R3",
+      "R28"
+     ]
+    },
+    {
+     "text": "June 10 \u2014 uTorrent \u2014 6S89DJSUDXC4 (MacBook Pro; hostname summit-macbookpro-475).",
+     "refs": [
+      "R4",
+      "R42"
+     ]
+    },
+    {
+     "text": "June 10 \u2014 uTorrent \u2014 UJ3WAS997T7J (MacBook Pro).",
+     "refs": [
+      "R5"
+     ]
+    },
+    {
+     "text": "June 9 \u2014 CleanMyMac X \u2014 S4RNN7FLXRG1 (MacBook Pro).",
+     "refs": [
+      "R6"
+     ]
+    },
+    {
+     "text": "June 9 \u2014 uTorrent \u2014 48EHX46GFOZO (Mac mini).",
+     "refs": [
+      "R7"
+     ]
+    },
+    {
+     "text": "June 9 \u2014 uTorrent \u2014 4C4VY23J83FH (MacBook Air).",
+     "refs": [
+      "R8"
+     ]
+    },
+    {
+     "text": "June 9 \u2014 uTorrent \u2014 9PNVYG3XG7VG (ThinkPad X1 Carbon).",
+     "refs": [
+      "R9"
+     ]
+    },
+    {
+     "text": "June 9 \u2014 uTorrent \u2014 N2TLYPEXQYV9 (Mac mini).",
+     "refs": [
+      "R10"
+     ]
+    },
+    {
+     "text": "June 9 \u2014 uTorrent \u2014 RSSXJKQHOB4M (MacBook Pro).",
+     "refs": [
+      "R11"
+     ]
+    },
+    {
+     "text": "June 9 \u2014 uTorrent \u2014 WGGJV52F3BQI (Mac mini).",
+     "refs": [
+      "R12"
+     ]
+    },
+    {
+     "text": "June 8 \u2014 uTorrent \u2014 9NT1M2DZ5R7V (MacBook Pro).",
+     "refs": [
+      "R13"
+     ]
+    },
+    {
+     "text": "June 7 \u2014 CleanMyMac X \u2014 2XL9LAJPCWT3 (Mac mini).",
+     "refs": [
+      "R14"
+     ]
+    },
+    {
+     "text": "June 7 \u2014 TeamViewer \u2014 5MYY0LVHWG4Q (ThinkPad X1 Carbon).",
+     "refs": [
+      "R15"
+     ]
+    },
+    {
+     "text": "June 7 \u2014 TeamViewer \u2014 IIXNAJO40GOL (Mac mini).",
+     "refs": [
+      "R16"
+     ]
+    },
+    {
+     "text": "June 7 \u2014 TeamViewer \u2014 TKC3UJZ1J9HH (ThinkPad X1 Carbon).",
+     "refs": [
+      "R17"
+     ]
+    },
+    {
+     "text": "June 7 \u2014 uTorrent \u2014 170QFJLIM1DK (Dell XPS 15).",
+     "refs": [
+      "R18"
+     ]
+    },
+    {
+     "text": "June 7 \u2014 uTorrent \u2014 XVERFK9G0CT5 (MacBook Pro).",
+     "refs": [
+      "R19"
+     ]
+    },
+    {
+     "text": "June 6 \u2014 uTorrent \u2014 B4TLX6NA65L9 (MacBook Pro).",
+     "refs": [
+      "R20"
+     ]
+    },
+    {
+     "text": "June 6 \u2014 uTorrent \u2014 GT9C0ACXFZ5M (ThinkPad X1 Carbon).",
+     "refs": [
+      "R21"
+     ]
+    },
+    {
+     "text": "June 6 \u2014 uTorrent \u2014 NSNFLW0EQRF2 (MacBook Pro).",
+     "refs": [
+      "R22"
+     ]
+    },
+    {
+     "text": "June 6 \u2014 uTorrent \u2014 TZ8A7LMZ985L (MacBook Pro).",
+     "refs": [
+      "R23"
+     ]
+    },
+    {
+     "text": "June 5 \u2014 CleanMyMac X \u2014 I9TI7W4LVKBA (MacBook Pro).",
+     "refs": [
+      "R24"
+     ]
+    },
+    {
+     "text": "June 5 \u2014 CleanMyMac X \u2014 LAZ9P9PUD91J (MacBook Air).",
+     "refs": [
+      "R25"
+     ]
+    },
+    {
+     "text": "June 5 \u2014 TeamViewer \u2014 VTWWAZIC5JNK (MacBook Pro).",
+     "refs": [
+      "R26"
+     ]
+    }
+   ],
+   "devices": [
+    "SDM3J7XZ4JT6",
+    "0LNZLSWVMZXF",
+    "6S89DJSUDXC4",
+    "UJ3WAS997T7J",
+    "S4RNN7FLXRG1",
+    "48EHX46GFOZO",
+    "4C4VY23J83FH",
+    "9PNVYG3XG7VG",
+    "N2TLYPEXQYV9",
+    "RSSXJKQHOB4M",
+    "WGGJV52F3BQI",
+    "9NT1M2DZ5R7V",
+    "2XL9LAJPCWT3",
+    "5MYY0LVHWG4Q",
+    "IIXNAJO40GOL",
+    "TKC3UJZ1J9HH",
+    "170QFJLIM1DK",
+    "XVERFK9G0CT5",
+    "B4TLX6NA65L9",
+    "GT9C0ACXFZ5M",
+    "NSNFLW0EQRF2",
+    "TZ8A7LMZ985L",
+    "I9TI7W4LVKBA",
+    "LAZ9P9PUD91J",
+    "VTWWAZIC5JNK"
+   ],
+   "count": 147
+  },
+  "proposals": [],
+  "checks": [
+   {
+    "sentence": "During May 14\u2013June 12, 2026, telemetry detected 150 new-software findings across 147 devices.",
+    "refs": [
+     "R1"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "The application totals were uTorrent: 89, CleanMyMac X: 36, and TeamViewer: 25.",
+    "refs": [
+     "R1"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "A finding means the application was absent from the first snapshot and remained present in every snapshot after appearing.",
+    "refs": [
+     "R1"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "Latest inventory also shows uTorrent on 89 devices, CleanMyMac X on 36, and TeamViewer on 25; these are current-presence counts, distinct from activity during the period.",
+    "refs": [
+     "R27",
+     "R53",
+     "R79"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "The 25 newest installation findings are listed below, newest first; 125 additional findings are not shown.",
+    "refs": [
+     "R1"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "June 10 \u2014 TeamViewer \u2014 SDM3J7XZ4JT6 (Dell XPS 15; hostname summit-dellxps15-551).",
+    "refs": [
+     "R2",
+     "R98"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "June 10 \u2014 uTorrent \u2014 0LNZLSWVMZXF (MacBook Pro; hostname summit-macbookpro-1551).",
+    "refs": [
+     "R3",
+     "R28"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "June 10 \u2014 uTorrent \u2014 6S89DJSUDXC4 (MacBook Pro; hostname summit-macbookpro-475).",
+    "refs": [
+     "R4",
+     "R42"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "June 10 \u2014 uTorrent \u2014 UJ3WAS997T7J (MacBook Pro).",
+    "refs": [
+     "R5"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "June 9 \u2014 CleanMyMac X \u2014 S4RNN7FLXRG1 (MacBook Pro).",
+    "refs": [
+     "R6"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "June 9 \u2014 uTorrent \u2014 48EHX46GFOZO (Mac mini).",
+    "refs": [
+     "R7"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "June 9 \u2014 uTorrent \u2014 4C4VY23J83FH (MacBook Air).",
+    "refs": [
+     "R8"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "June 9 \u2014 uTorrent \u2014 9PNVYG3XG7VG (ThinkPad X1 Carbon).",
+    "refs": [
+     "R9"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "June 9 \u2014 uTorrent \u2014 N2TLYPEXQYV9 (Mac mini).",
+    "refs": [
+     "R10"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "June 9 \u2014 uTorrent \u2014 RSSXJKQHOB4M (MacBook Pro).",
+    "refs": [
+     "R11"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "June 9 \u2014 uTorrent \u2014 WGGJV52F3BQI (Mac mini).",
+    "refs": [
+     "R12"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "June 8 \u2014 uTorrent \u2014 9NT1M2DZ5R7V (MacBook Pro).",
+    "refs": [
+     "R13"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "June 7 \u2014 CleanMyMac X \u2014 2XL9LAJPCWT3 (Mac mini).",
+    "refs": [
+     "R14"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "June 7 \u2014 TeamViewer \u2014 5MYY0LVHWG4Q (ThinkPad X1 Carbon).",
+    "refs": [
+     "R15"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "June 7 \u2014 TeamViewer \u2014 IIXNAJO40GOL (Mac mini).",
+    "refs": [
+     "R16"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "June 7 \u2014 TeamViewer \u2014 TKC3UJZ1J9HH (ThinkPad X1 Carbon).",
+    "refs": [
+     "R17"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "June 7 \u2014 uTorrent \u2014 170QFJLIM1DK (Dell XPS 15).",
+    "refs": [
+     "R18"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "June 7 \u2014 uTorrent \u2014 XVERFK9G0CT5 (MacBook Pro).",
+    "refs": [
+     "R19"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "June 6 \u2014 uTorrent \u2014 B4TLX6NA65L9 (MacBook Pro).",
+    "refs": [
+     "R20"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "June 6 \u2014 uTorrent \u2014 GT9C0ACXFZ5M (ThinkPad X1 Carbon).",
+    "refs": [
+     "R21"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "June 6 \u2014 uTorrent \u2014 NSNFLW0EQRF2 (MacBook Pro).",
+    "refs": [
+     "R22"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "June 6 \u2014 uTorrent \u2014 TZ8A7LMZ985L (MacBook Pro).",
+    "refs": [
+     "R23"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "June 5 \u2014 CleanMyMac X \u2014 I9TI7W4LVKBA (MacBook Pro).",
+    "refs": [
+     "R24"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "June 5 \u2014 CleanMyMac X \u2014 LAZ9P9PUD91J (MacBook Air).",
+    "refs": [
+     "R25"
+    ],
+    "verdict": "supported",
+    "problem": null
+   },
+   {
+    "sentence": "June 5 \u2014 TeamViewer \u2014 VTWWAZIC5JNK (MacBook Pro).",
+    "refs": [
+     "R26"
+    ],
+    "verdict": "supported",
+    "problem": null
+   }
+  ],
+  "withheld": 0,
+  "audit": [
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported",
+   "supported"
+  ],
+  "leaked": [],
+  "seconds": 104.9,
+  "usd": 0.0792,
+  "calls": 2,
+  "scores": {
+   "devices": true,
+   "count": true,
+   "isolation": true
+  },
+  "passed": true,
+  "repeat": 0
+ }
+]

@@ -1,0 +1,10 @@
+.env
+*.sqlite*
+.venv/
+__pycache__/
+.pytest_cache/
+web/
+node_modules/
+*.pdf
+evals/runs/
+data/large/

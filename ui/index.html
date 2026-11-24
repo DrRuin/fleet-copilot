@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fleet Copilot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <dialog id="signin" class="signin">
+    <form method="dialog">
+      <h1>Fleet Copilot</h1>
+      <p class="muted">Sign in as an IT administrator. The session sees one company only.</p>
+      <label>Company <select id="company"></select></label>
+      <label>Your name <input id="actor" value="IT admin" required></label>
+      <button class="primary">Open session</button>
+    </form>
+  </dialog>
+
+  <aside class="side">
+    <div class="brand">Fleet Copilot</div>
+    <div class="tenant"><span class="dot"></span><span id="tenant">no session</span></div>
+    <p class="label">Try asking</p>
+    <div id="examples" class="examples"></div>
+    <p class="label">Records</p>
+    <button id="show-audit" class="link">Audit log and actions</button>
+    <button id="switch" class="link">Switch company</button>
+  </aside>
+
+  <main class="main">
+    <section id="thread" class="thread">
+      <div class="empty">
+        <h2>Ask about your fleet</h2>
+        <p class="muted">Every sentence in an answer cites the telemetry rows behind it. Actions are proposals until a person approves them.</p>
+      </div>
+    </section>
+    <form id="ask" class="ask">
+      <textarea id="text" rows="2" placeholder="Which devices are low on disk space?" required></textarea>
+      <button class="primary" id="send">Ask</button>
+    </form>
+  </main>
+
+  <aside id="panel" class="panel" hidden>
+    <header><h3 id="panel-title"></h3><button id="close" class="link">Close</button></header>
+    <div id="panel-body"></div>
+  </aside>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
